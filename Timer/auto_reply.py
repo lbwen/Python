@@ -45,11 +45,11 @@ class AutoRepiy:
         PassWord = ("id", "com.huitong.privateboard:id/et_password")
         Longin = ("id", "com.huitong.privateboard:id/btn_login")
         News = ("id", "com.huitong.privateboard:id/shidong_chat")  # 消息
-        experience = ('xpath', '//android.widget.TextView[@text="师董会公司群"]')
-        experience1 = ('xpath', '//android.widget.TextView[@text="师董会APP体验群"]')
-        InputBox = ("id", "com.huitong.privateboard:id/rc_edit_text")  # 点击输入框
-        rc_send_toggle = ("id", "com.huitong.privateboard:id/rc_send_toggle")  # 发送
-        iv_back = ("id", "com.huitong.privateboard:id/iv_back")  # 返回
+        # experience = ('xpath', '//android.widget.TextView[@text="师董会公司群"]')
+        # experience1 = ('xpath', '//android.widget.TextView[@text="师董会APP体验群"]')
+        # InputBox = ("id", "com.huitong.privateboard:id/rc_edit_text")  # 点击输入框
+        # rc_send_toggle = ("id", "com.huitong.privateboard:id/rc_send_toggle")  # 发送
+        # iv_back = ("id", "com.huitong.privateboard:id/iv_back")  # 返回
 
         WebDriverWait(self.driver, 10, 1).until(EC.presence_of_element_located(HomePageLogin)).click()
         WebDriverWait(self.driver, 10, 1).until(EC.presence_of_element_located(SignIn)).click()
